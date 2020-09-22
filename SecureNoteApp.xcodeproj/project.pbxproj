@@ -18,6 +18,7 @@
 		9520E9DF2519FE5200420BD0 /* NotesSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9DE2519FE5200420BD0 /* NotesSettings.swift */; };
 		9520E9E2251A023200420BD0 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9E1251A023200420BD0 /* KeychainHelper.swift */; };
 		9520E9E5251A0E1200420BD0 /* BioAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9E4251A0E1200420BD0 /* BioAuth.swift */; };
+		9520E9E8251A12BB00420BD0 /* PasswordHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9E7251A12BB00420BD0 /* PasswordHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		9520E9DE2519FE5200420BD0 /* NotesSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesSettings.swift; sourceTree = "<group>"; };
 		9520E9E1251A023200420BD0 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
 		9520E9E4251A0E1200420BD0 /* BioAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAuth.swift; sourceTree = "<group>"; };
+		9520E9E7251A12BB00420BD0 /* PasswordHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				9520E9DE2519FE5200420BD0 /* NotesSettings.swift */,
 				9520E9E1251A023200420BD0 /* KeychainHelper.swift */,
 				9520E9E4251A0E1200420BD0 /* BioAuth.swift */,
+				9520E9E7251A12BB00420BD0 /* PasswordHelper.swift */,
 			);
 			path = SecureNoteApp;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				9520E9C42519FB5E00420BD0 /* AppDelegate.swift in Sources */,
 				9520E9DF2519FE5200420BD0 /* NotesSettings.swift in Sources */,
 				9520E9DC2519FE4500420BD0 /* NotesHome.swift in Sources */,
+				9520E9E8251A12BB00420BD0 /* PasswordHelper.swift in Sources */,
 				9520E9E5251A0E1200420BD0 /* BioAuth.swift in Sources */,
 				9520E9E2251A023200420BD0 /* KeychainHelper.swift in Sources */,
 				9520E9C62519FB5E00420BD0 /* SceneDelegate.swift in Sources */,

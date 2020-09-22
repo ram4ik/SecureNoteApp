@@ -20,6 +20,7 @@
 		9520E9E5251A0E1200420BD0 /* BioAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9E4251A0E1200420BD0 /* BioAuth.swift */; };
 		9520E9E8251A12BB00420BD0 /* PasswordHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9E7251A12BB00420BD0 /* PasswordHelper.swift */; };
 		9520E9EB251A175300420BD0 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9EA251A175300420BD0 /* NoteDetailView.swift */; };
+		9520E9EE251A199700420BD0 /* AddNewNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9ED251A199700420BD0 /* AddNewNote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		9520E9E4251A0E1200420BD0 /* BioAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAuth.swift; sourceTree = "<group>"; };
 		9520E9E7251A12BB00420BD0 /* PasswordHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordHelper.swift; sourceTree = "<group>"; };
 		9520E9EA251A175300420BD0 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		9520E9ED251A199700420BD0 /* AddNewNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewNote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				9520E9E4251A0E1200420BD0 /* BioAuth.swift */,
 				9520E9E7251A12BB00420BD0 /* PasswordHelper.swift */,
 				9520E9EA251A175300420BD0 /* NoteDetailView.swift */,
+				9520E9ED251A199700420BD0 /* AddNewNote.swift */,
 			);
 			path = SecureNoteApp;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			files = (
 				9520E9CB2519FB5E00420BD0 /* SecureNoteApp.xcdatamodeld in Sources */,
 				9520E9EB251A175300420BD0 /* NoteDetailView.swift in Sources */,
+				9520E9EE251A199700420BD0 /* AddNewNote.swift in Sources */,
 				9520E9C42519FB5E00420BD0 /* AppDelegate.swift in Sources */,
 				9520E9DF2519FE5200420BD0 /* NotesSettings.swift in Sources */,
 				9520E9DC2519FE4500420BD0 /* NotesHome.swift in Sources */,

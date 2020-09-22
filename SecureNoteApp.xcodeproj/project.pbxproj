@@ -17,6 +17,7 @@
 		9520E9DC2519FE4500420BD0 /* NotesHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9DB2519FE4500420BD0 /* NotesHome.swift */; };
 		9520E9DF2519FE5200420BD0 /* NotesSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9DE2519FE5200420BD0 /* NotesSettings.swift */; };
 		9520E9E2251A023200420BD0 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9E1251A023200420BD0 /* KeychainHelper.swift */; };
+		9520E9E5251A0E1200420BD0 /* BioAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9E4251A0E1200420BD0 /* BioAuth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9520E9DB2519FE4500420BD0 /* NotesHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesHome.swift; sourceTree = "<group>"; };
 		9520E9DE2519FE5200420BD0 /* NotesSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesSettings.swift; sourceTree = "<group>"; };
 		9520E9E1251A023200420BD0 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		9520E9E4251A0E1200420BD0 /* BioAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				9520E9DB2519FE4500420BD0 /* NotesHome.swift */,
 				9520E9DE2519FE5200420BD0 /* NotesSettings.swift */,
 				9520E9E1251A023200420BD0 /* KeychainHelper.swift */,
+				9520E9E4251A0E1200420BD0 /* BioAuth.swift */,
 			);
 			path = SecureNoteApp;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				9520E9C42519FB5E00420BD0 /* AppDelegate.swift in Sources */,
 				9520E9DF2519FE5200420BD0 /* NotesSettings.swift in Sources */,
 				9520E9DC2519FE4500420BD0 /* NotesHome.swift in Sources */,
+				9520E9E5251A0E1200420BD0 /* BioAuth.swift in Sources */,
 				9520E9E2251A023200420BD0 /* KeychainHelper.swift in Sources */,
 				9520E9C62519FB5E00420BD0 /* SceneDelegate.swift in Sources */,
 				9520E9C82519FB5E00420BD0 /* ContentView.swift in Sources */,

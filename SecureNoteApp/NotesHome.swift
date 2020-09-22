@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct NotesHome: View {
+    
+    @Environment(\.managedObjectContext) var moc
+    @FetchRequest(entity: SecureNote.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \SecureNote.created, ascending: true)]) var notes: FetchedResults<SecureNote>
+    
+    @State private var showAdd = false
+    
     var body: some View {
-        Text("Notes Home")
+        List {
+            ForEach(notes, id: \.self) { secureNote in
+                NavigationLink(destination: NoteDetailView(note: secureNote)) {
+                    Text(secureNote.note ?? "")
+                }
+            }
+        }
+        .navigationBarTitle("Secure Notes")
+        .navigationBarItems(trailing: Button(action: { self.showAdd.toggle() }) {
+            Text("Create")
+        }).sheet(isPresented: $showAdd) { 
+            Text("Add new note")
+        }
     }
 }
 

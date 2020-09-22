@@ -16,6 +16,7 @@
 		9520E9D32519FB6000420BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9520E9D12519FB6000420BD0 /* LaunchScreen.storyboard */; };
 		9520E9DC2519FE4500420BD0 /* NotesHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9DB2519FE4500420BD0 /* NotesHome.swift */; };
 		9520E9DF2519FE5200420BD0 /* NotesSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9DE2519FE5200420BD0 /* NotesSettings.swift */; };
+		9520E9E2251A023200420BD0 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9E1251A023200420BD0 /* KeychainHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9520E9D42519FB6000420BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9520E9DB2519FE4500420BD0 /* NotesHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesHome.swift; sourceTree = "<group>"; };
 		9520E9DE2519FE5200420BD0 /* NotesSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesSettings.swift; sourceTree = "<group>"; };
+		9520E9E1251A023200420BD0 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				9520E9CE2519FB6000420BD0 /* Preview Content */,
 				9520E9DB2519FE4500420BD0 /* NotesHome.swift */,
 				9520E9DE2519FE5200420BD0 /* NotesSettings.swift */,
+				9520E9E1251A023200420BD0 /* KeychainHelper.swift */,
 			);
 			path = SecureNoteApp;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				9520E9C42519FB5E00420BD0 /* AppDelegate.swift in Sources */,
 				9520E9DF2519FE5200420BD0 /* NotesSettings.swift in Sources */,
 				9520E9DC2519FE4500420BD0 /* NotesHome.swift in Sources */,
+				9520E9E2251A023200420BD0 /* KeychainHelper.swift in Sources */,
 				9520E9C62519FB5E00420BD0 /* SceneDelegate.swift in Sources */,
 				9520E9C82519FB5E00420BD0 /* ContentView.swift in Sources */,
 			);

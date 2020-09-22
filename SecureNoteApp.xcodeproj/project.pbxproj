@@ -14,6 +14,8 @@
 		9520E9CD2519FB6000420BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9520E9CC2519FB6000420BD0 /* Assets.xcassets */; };
 		9520E9D02519FB6000420BD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9520E9CF2519FB6000420BD0 /* Preview Assets.xcassets */; };
 		9520E9D32519FB6000420BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9520E9D12519FB6000420BD0 /* LaunchScreen.storyboard */; };
+		9520E9DC2519FE4500420BD0 /* NotesHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9DB2519FE4500420BD0 /* NotesHome.swift */; };
+		9520E9DF2519FE5200420BD0 /* NotesSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520E9DE2519FE5200420BD0 /* NotesSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9520E9CF2519FB6000420BD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9520E9D22519FB6000420BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9520E9D42519FB6000420BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9520E9DB2519FE4500420BD0 /* NotesHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesHome.swift; sourceTree = "<group>"; };
+		9520E9DE2519FE5200420BD0 /* NotesSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				9520E9D42519FB6000420BD0 /* Info.plist */,
 				9520E9C92519FB5E00420BD0 /* SecureNoteApp.xcdatamodeld */,
 				9520E9CE2519FB6000420BD0 /* Preview Content */,
+				9520E9DB2519FE4500420BD0 /* NotesHome.swift */,
+				9520E9DE2519FE5200420BD0 /* NotesSettings.swift */,
 			);
 			path = SecureNoteApp;
 			sourceTree = "<group>";
@@ -150,6 +156,8 @@
 			files = (
 				9520E9CB2519FB5E00420BD0 /* SecureNoteApp.xcdatamodeld in Sources */,
 				9520E9C42519FB5E00420BD0 /* AppDelegate.swift in Sources */,
+				9520E9DF2519FE5200420BD0 /* NotesSettings.swift in Sources */,
+				9520E9DC2519FE4500420BD0 /* NotesHome.swift in Sources */,
 				9520E9C62519FB5E00420BD0 /* SceneDelegate.swift in Sources */,
 				9520E9C82519FB5E00420BD0 /* ContentView.swift in Sources */,
 			);

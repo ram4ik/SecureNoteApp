@@ -41,16 +41,19 @@ struct AddNewNote: View {
                     
                     Group {
                         if isSecured {
-                            Image(systemName: "checkmark.sheild")
+                            Image(systemName: "checkmark.shield")
                         } else {
-                            Image(systemName: "sheild")
+                            Image(systemName: "shield")
                         }
                     }
                     .font(.title)
                 }
             }.sheet(isPresented: $createPassword) {
-                // call create password creen here
-                Text("Create password screen")
+                CreateNewPassword(createPassword: self.$createPassword).onDisappear() {
+                    if PasswordHelper.isPasswordBlank {
+                        self.isSecured.toggle()
+                    }
+                }
             }
             
             HStack {

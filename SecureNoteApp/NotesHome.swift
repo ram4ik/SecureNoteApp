@@ -26,7 +26,7 @@ struct NotesHome: View {
         .navigationBarItems(trailing: Button(action: { self.showAdd.toggle() }) {
             Text("Create")
         }).sheet(isPresented: $showAdd) { 
-            Text("Add new note")
+            AddNewNote(showAdd: self.$showAdd).environment(\.managedObjectContext, self.moc)
         }
     }
 }

@@ -18,7 +18,7 @@ struct NotesHome: View {
         List {
             ForEach(notes, id: \.self) { secureNote in
                 NavigationLink(destination: NoteDetailView(note: secureNote)) {
-                    Text(secureNote.note ?? "")
+                    NoteCell(isSecured: secureNote.isSecured, text: secureNote.note ?? "")
                 }
             }
         }
